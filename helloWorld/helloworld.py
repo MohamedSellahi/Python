@@ -1,7 +1,12 @@
-for i in range(0,10):
-  print "hello wolrd"
-  print i
-if i == 10:
-  print "second param is the end value"
-else:
-  print "second param - 1 is the last value"
+import string
+s = "hello world"
+string.capwords(s)
+print(s)
+
+# fibonaci series:
+# the sum of two numbers defines the next
+a, b = 0, 1
+while b < 10:
+  print(b)
+  a, b = b, a + b # all right hand expression is evaluated before  
+                  # any assignements  
