@@ -1,4 +1,4 @@
-# the for statment 
+# the for statment
 # ------------------
 
 words = ['cat', 'window', 'defence']
@@ -9,21 +9,21 @@ for w in words:
 
 for w in words[:]:
   if(len(w) > 6):
-    words.insert(0,w)
+    words.insert(0, w)
   print(w)
 
 print('after insertion')
 for w in words:
   print(w)
 
-# Using range method 
+# Using range method
 
-for i in range(0,5):
-  print(i,' ', end='')
+for i in range(0, 5):
+  print(i, ' ', end='')
 
 print(end='\n')
 
-for i in range(0,10,3):
+for i in range(0, 10, 3):
   print(i, ' ', end='')
 
 print(end='\n')
@@ -42,7 +42,7 @@ for i in range(len(a)):
   print(i, a[i])
 
 
-# list 
+# list
 it = list(range(5))
 print("it = list(range(5))")
 for i in it:
@@ -50,4 +50,3 @@ for i in it:
 print(end='\n')
 
 # Continue here : https://docs.python.org/3/tutorial/controlflow.html
-

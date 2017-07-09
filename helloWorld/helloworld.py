@@ -7,7 +7,7 @@ print(s)
 # the sum of two numbers defines the next
 a, b = 0, 1
 while b < 10:
-    print(b, end=''),
+    print(b,' ', end=''),
     a, b = b, a + b   # all right hand expression is evaluated before
     # any assignements
 print(end='\n')
@@ -26,4 +26,5 @@ elif x == 1:
   print('Single')
 else:
   print('More')
+
 
